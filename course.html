@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+
+    </section>
+
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>WE offers a wide range of graduate courses from postgraduate certificates to doctorates. Our courses are
+            challenging and intensive and our approach to graduate study emphasises your ability to work independently,
+            while supported by a world-class academic community.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>This is the best course for Intermediate class student</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>This is the best course for Degree class student</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>This is the best course for Post Graduation class student</p>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>We have some of the best facilities in the world</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png" alt="">
+                <h3>World Class Library</h3>
+                <p>This is the top 1 library in the world</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.png" alt="">
+                <h3>Largest Play Ground</h3>
+                <p>This is the top 1 Playground in the world</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png" alt="">
+                <h3>Tasty and Health Food</h3>
+                <p>This is the top 1 Cafeteria in the world</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>DUCAT is the No.1 Training Company in Noida, South Extension, Pitampura, Gurugram, and Ghaziabad with
+            <br>top-notch IT training programs and industry experts.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by Shubham Dhaundiyal</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+
+</body>
+
+</html>
